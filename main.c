@@ -1,6 +1,7 @@
 #include <stdio.h>
-int main()
+main()
 {
-  char a[11] = "Hello World"; 
-  printf ("%s", a);
+  char c [55];
+  scanf ("%s", &c);
+  printf ("%sy mc%sface", c, c);
 }
